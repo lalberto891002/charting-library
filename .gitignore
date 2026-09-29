@@ -1,0 +1,30 @@
+# Local IDE and tool state
+.idea/
+*.iml
+.gradle/
+.kotlin/
+.DS_Store
+local.properties
+
+# Generated output in every module (keep the Gradle wrapper JAR tracked)
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.aar
+*.log
+
+# Local signing material and environment configuration
+*.jks
+*.keystore
+*.p12
+*.pem
+key.properties
+keystore.properties
+signing.properties
+.env
+.env.*
+!.env.example
+
